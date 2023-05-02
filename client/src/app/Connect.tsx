@@ -12,7 +12,7 @@ export const Connect: FC = () => {
                     client: createWSClient({
                         url:
                             localStorage.getItem('url') ??
-                            'ws://192.168.106.20:3000',
+                            'ws://192.168.106.4:3000',
                     }),
                 }),
             ],
